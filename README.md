@@ -16,6 +16,8 @@ This project serves as a reinforcement on `APIs`.
 
 5. If a `term` does not yield any results, the user should be able to get the following visual feedback: `Term <term> does not yield any results`.
 
+6. The API docs is found [here](https://icanhazdadjoke.com/api)
+
 ## Dev Tools
 
 For this project you need to setup `stylelint`, `eslint` and `prettier`.
