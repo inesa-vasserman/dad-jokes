@@ -16,7 +16,9 @@ This project serves as a reinforcement on `APIs` & Introduction to `modular` cod
 
 5. If a `term` does not yield any results, the user should be able to get the following visual feedback: `Term <term> does not yield any results`.
 
-6. The API docs is found [here](https://icanhazdadjoke.com/api)
+6. Be mindful of your `HTML` and how you would approach semantic `HTML` for a `search box` component.
+
+7. The API docs is found [here](https://icanhazdadjoke.com/api)
 
 ## Dev Tools
 
