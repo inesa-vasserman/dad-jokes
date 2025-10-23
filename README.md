@@ -1,6 +1,6 @@
 # API's Workout
 
-This project serves as a reinforcement on `APIs`.
+This project serves as a reinforcement on `APIs` & Introduction to `modular` code.
 
 ## Project Specific Requirements: API Integration
 
