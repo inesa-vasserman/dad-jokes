@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <title>Dad jokes</title>
+</head>
+<body>
+    <div id="root">
+        <h1 class="visually-hidden">Search for jokes</h1>
+        <section id="search-bar">
+            <form>
+                <label for="search">Search query</label>
+                <input type="search" id="search" placeholder="Enter search term..." required>
+                <button type="submit" id="search-submittion">Search</button>
+            </form>
+        </section>
+        <section id="result">
+            <h2>Get Dad's Jokes as both text and image!</h2>
+            <p id="jokes-holder"></p>
+            <button type="submit">Generate a random joke</button>
+        </section>
+    </div>
+</body>
+</html>
