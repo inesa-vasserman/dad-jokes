@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="script.js"></script>
+    <script type="module" src="user-request-script.js"></script>
     <title>Dad jokes</title>
 </head>
 <body>
@@ -13,14 +13,14 @@
         <section id="search-bar">
             <form>
                 <label for="search">Search query</label>
-                <input type="search" id="search" placeholder="Enter search term..." required>
+                <input type="search" id="search-value" placeholder="Enter search term..." required>
                 <button type="submit" id="search-submittion">Search</button>
             </form>
         </section>
         <section id="result">
             <h2>Get Dad's Jokes as both text and image!</h2>
-            <p id="jokes-holder"></p>
-            <button type="submit">Generate a random joke</button>
+            <div id="jokes-holder"></div>
+            <button id='jokes-generator' type="submit">Generate a random joke</button>
         </section>
     </div>
 </body>

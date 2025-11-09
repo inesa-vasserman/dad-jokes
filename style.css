@@ -19,6 +19,7 @@ button {
   border-radius: 0.8rem;
   box-shadow: 3px 6px black;
   border: white;
+  margin: 0.2rem;
 }
 
 .visually-hidden {
@@ -30,4 +31,35 @@ button {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+#result {
+  width: 60%;
+}
+
+#search-bar {
+  margin: auto;
+}
+
+@media screen and (width <= 600px) {
+  #root {
+    flex-direction: column-reverse;
+    font-size: small;
+  }
+
+  button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    width: max-content;
+    margin: 0.5rem;
+  }
+
+  #search-bar {
+    margin: auto;
+  }
+
+  form {
+    margin-top: 2rem;
+    width: 65%;
+  }
 }
