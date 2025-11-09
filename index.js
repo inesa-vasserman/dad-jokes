@@ -30,4 +30,4 @@ export function getData(term='') {
 
 getData();
 
-console.log("I am working");
+console.log("I am working"); 

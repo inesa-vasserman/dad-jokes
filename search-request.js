@@ -19,4 +19,4 @@ export function getJokeByTerm(event) {
 
   getData(value);
   $searchValue.value = '';
-}
+} 

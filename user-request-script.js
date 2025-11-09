@@ -16,4 +16,4 @@ $generateJokesButton.addEventListener('click', generateNewJokes)
 
 $searchSubmittion.addEventListener('click',getJokeByTerm);
 
-export {generateNewJokes}
+export {generateNewJokes} 
