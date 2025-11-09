@@ -63,3 +63,26 @@ button {
     width: 65%;
   }
 }
+
+@media screen and (width <= 600px) {
+  #root {
+    flex-direction: column-reverse;
+    font-size: small;
+  }
+
+  button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    width: max-content;
+    margin: 0.5rem;
+  }
+
+  #search-bar {
+    margin: auto;
+  }
+
+  form {
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+}
